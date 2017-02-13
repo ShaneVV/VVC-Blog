@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node --harmony index.js"  
+    "dev": "node --harmony index.js"
   },
   "dependencies": {
     "koa": "next",
+    "koa-bodyparser": "^3.2.0",
     "koa-router": "next"
   }
 }
